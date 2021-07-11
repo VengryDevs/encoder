@@ -1,0 +1,84 @@
+*,
+*:before,
+*:after{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	outline: none;
+	border: none;
+}
+
+body{
+	background: #EEEEEE;
+}
+
+.top-bar{
+	background: #DDDDDD;
+	height: 50px;
+	width: 100%;
+	position: absolute;
+	display: flex;
+}
+.top-bar .main{
+	display: inline-block;
+}
+.top-bar .main .name{
+	font-family: 'Poppins', sans-serif;
+	font-size: 24px;
+	top: 50%;
+	left: 50px;
+	transform: translateY(-50%);
+	position: relative;
+	color: #131313;
+}
+.top-bar .theme{
+	font-size: 24px;
+	top: 50%;
+	right: 50px;
+	transform: translateY(-50%);
+	position: absolute;
+	color: #131313;
+	padding: 13px;
+}
+.top-bar .center{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translateX(-50%) translateY(-50%);
+}
+.top-bar .center .select1,
+.top-bar .center .select2,
+.top-bar .center .btn{
+	position: relative;
+	display: inline-block;
+	height: 46px;
+	width: 200px;
+	border: 1px solid #131313;
+	border-radius: 46px;
+	background: #EEEEEE;
+	color: #131313;
+	font-size: 24px;
+	font-family: 'Nunito', sans-serif;
+	cursor: pointer;
+}
+.top-bar .center .select1{
+	left: -20px;
+	top: 4px;
+}
+.top-bar .center .select2{
+	top: 4px;
+}
+.top-bar .center .btn{
+	left: 20px;
+	bottom: 3px;
+	background: #131313;
+	border-color: #EEEEEE;
+	color: #EEEEEE;
+}
+.top-bar .center .btn .text{
+	display: inline-block;
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translateY(-50%) translateX(-50%);
+}
